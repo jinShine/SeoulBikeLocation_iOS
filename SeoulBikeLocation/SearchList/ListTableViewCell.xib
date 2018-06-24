@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="listCell" rowHeight="84" id="KGk-i7-Jjw" customClass="ListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="83.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="대여소명" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bgi-EP-SSg">
+                        <rect key="frame" x="10" y="5" width="300" height="20"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="대여소 주소" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iO-P8-B3c">
+                        <rect key="frame" x="10" y="35" width="300" height="15.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="거치대수 : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pwu-Tw-ats">
+                        <rect key="frame" x="10" y="55.5" width="56" height="16"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ytm-8l-jrE">
+                        <rect key="frame" x="71" y="56" width="30" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="OVq-Zq-Yu8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="대여소 번호 : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="two-4X-2bv">
+                        <rect key="frame" x="131" y="56" width="71" height="16"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2304" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BL-Pg-u1C">
+                        <rect key="frame" x="207" y="56" width="50" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="UFB-sm-jPC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6BL-Pg-u1C" firstAttribute="centerY" secondItem="two-4X-2bv" secondAttribute="centerY" id="LZd-mc-KVI"/>
+                    <constraint firstItem="Ytm-8l-jrE" firstAttribute="leading" secondItem="Pwu-Tw-ats" secondAttribute="trailing" constant="5" id="Qo9-Zl-CLW"/>
+                    <constraint firstItem="6iO-P8-B3c" firstAttribute="top" secondItem="Bgi-EP-SSg" secondAttribute="bottom" constant="10" id="Syj-7W-HmD"/>
+                    <constraint firstItem="two-4X-2bv" firstAttribute="leading" secondItem="Ytm-8l-jrE" secondAttribute="trailing" constant="30" id="TYb-xn-bKF"/>
+                    <constraint firstItem="Bgi-EP-SSg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Vh1-lS-UXg"/>
+                    <constraint firstItem="Bgi-EP-SSg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Xte-bw-byK"/>
+                    <constraint firstItem="Pwu-Tw-ats" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="Zu7-nI-q46"/>
+                    <constraint firstItem="Pwu-Tw-ats" firstAttribute="top" secondItem="6iO-P8-B3c" secondAttribute="bottom" constant="5" id="aFH-y3-Tqc"/>
+                    <constraint firstItem="6iO-P8-B3c" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="anG-Vl-oJu"/>
+                    <constraint firstAttribute="trailing" secondItem="Bgi-EP-SSg" secondAttribute="trailing" constant="10" id="bPA-kb-U25"/>
+                    <constraint firstItem="two-4X-2bv" firstAttribute="centerY" secondItem="Ytm-8l-jrE" secondAttribute="centerY" id="glW-0t-l1p"/>
+                    <constraint firstItem="6BL-Pg-u1C" firstAttribute="leading" secondItem="two-4X-2bv" secondAttribute="trailing" constant="5" id="jQZ-Op-bhQ"/>
+                    <constraint firstItem="Ytm-8l-jrE" firstAttribute="centerY" secondItem="Pwu-Tw-ats" secondAttribute="centerY" id="kfT-9o-OTG"/>
+                    <constraint firstAttribute="trailing" secondItem="6iO-P8-B3c" secondAttribute="trailing" constant="10" id="r9P-mC-RND"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="cradleCount" destination="Ytm-8l-jrE" id="8ZA-Q9-O9I"/>
+                <outlet property="rentalShopAddress" destination="6iO-P8-B3c" id="bCi-2Y-Jdp"/>
+                <outlet property="rentalShopName" destination="Bgi-EP-SSg" id="gqb-Tj-T4x"/>
+                <outlet property="rentalShopNumber" destination="6BL-Pg-u1C" id="JTo-Xs-vEc"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="74"/>
+        </tableViewCell>
+    </objects>
+</document>
