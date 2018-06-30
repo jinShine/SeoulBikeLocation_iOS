@@ -14,13 +14,13 @@ iOS앱에 간단한 `로그인`, `회원가입`, `비밀번호 찾기`, `대여�
 
 * 회원가입 화면
 
-![Imgur](https://i.imgur.com/54UJCZl.png)
-![Imgur](https://i.imgur.com/fN0DgYK.png)
+![Imgur](https://i.imgur.com/54UJCZl.png?1)
+![Imgur](https://i.imgur.com/fN0DgYK.png?1)
 
 * 비밀번호 찾기
 
-![Imgur](https://i.imgur.com/53O1Lc8.png)
-![Imgur](https://i.imgur.com/5uN7fAy.png)
+![Imgur](https://i.imgur.com/53O1Lc8.png?1)
+![Imgur](https://i.imgur.com/5uN7fAy.png?1)
 
 * 대여소 위치 지도에 표시
 
