@@ -24,8 +24,8 @@ iOS앱에 간단한 `로그인`, `회원가입`, `비밀번호 찾기`, `대여�
 
 * 대여소 위치 지도에 표시
 
-![Imgur](https://i.imgur.com/cP59Iew.png)
+![Imgur](https://i.imgur.com/cP59Iew.png?1)
 
 * 대여소 정보 검색
 
-![Imgur](https://i.imgur.com/RW2HbmQ.png)
+![Imgur](https://i.imgur.com/RW2HbmQ.png?1)
