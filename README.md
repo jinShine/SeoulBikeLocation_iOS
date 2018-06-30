@@ -9,7 +9,7 @@ iOS앱에 간단한 `로그인`, `회원가입`, `비밀번호 찾기`, `대여�
 ## 구현 화면
 
 * 로그인 화면
-![Imgur](https://i.imgur.com/vUV8NSL.png) {: width="100px" height="20px"}
+![Imgur](https://i.imgur.com/vUV8NSL.png)
 
 * 회원가입 화면
 ![Imgur](https://i.imgur.com/54UJCZl.png)
